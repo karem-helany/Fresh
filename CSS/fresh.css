@@ -1,0 +1,80 @@
+* {
+    align-items: center;
+    transition: all 200ms;
+}
+
+.landing .container .navbar .navbar-end .navbar-brand ul {
+    width: 350px;
+}
+
+.landing .container .navbar .navbar-end .navbar-brand ul a:hover {
+    color: #f39200;
+}
+
+.hero .hero-body .columns .column .buttons button:nth-child(1):hover {
+    box-shadow: 0 0 10px #666565;
+}
+
+.logos .section .container .contant .columns .column i {
+    border: 1px solid #e3e3e3;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.logos .section .container .contant .columns .column:hover i {
+    transform: translatey(-4px);
+    box-shadow: 0 0 2px #666565;
+}
+
+.people .section .container .contant .columns .column {
+    margin: 200px 0px;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    box-shadow: 0 0 2px #b2b0b0;
+}
+
+.people .section .container .contant .columns .column i {
+    color: #c6c6c6;
+}
+
+.people .section .container .contant .columns .column .image {
+    position: absolute;
+}
+
+.people .section .container .contant .columns .column .subtitle:nth-child(4) {
+    color: #616060;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.plans .section .container .content .columns .column .card {
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+}
+
+.plans .section .container .content .columns .column .card .card-image .image img {
+    display: inline;
+    max-width: 160px;
+}
+
+.plans .section .container .content .columns .column .card .card-content .title::before {
+    content: "$";
+    position: absolute;
+    left: 97px;
+    font-size: 22px;
+}
+
+.plans .section .container .content .columns .column .card .card-content .title::after {
+    content: "/ in month";
+    display: block;
+    font-size: 16px;
+}
+
+.fotter {
+    background-color: #444F60;
+}
+
+.input:focus {
+    outline: none;
+}
